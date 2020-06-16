@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    border: 1px solid #000000;
     height: 400px;
 }
     
@@ -11,11 +10,14 @@
     border: 1px solid #000000;
     padding: 20px;
     margin: 20px;
+    border-radius: 5%;
 }
     
     
-td{
+.list td{
     padding: 10px;
-    border: 1px solid #000000;
 }
     
+.link-style{
+    text-decoration: none;
+}

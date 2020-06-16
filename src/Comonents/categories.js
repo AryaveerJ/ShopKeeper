@@ -1,5 +1,6 @@
 import React from 'react';
 import './categories.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,11 +12,11 @@ class  Categories extends React.Component{
             <div className="list">
                 <table>
                     <tr>
-                        <td>Tooth Pastes</td>
+                        <td><Link to="/itemdetails" className="link-style">Tooth Pastes</Link></td>
                         <td width="50px"/>
-                        <td>Tooth Brush</td>
+                        <td><Link to="/itemdetails"  className="link-style">Tooth Brush</Link></td>
                         <td width="50px"/>
-                        <td>Mouth Freshner</td>
+                        <td><Link to="/itemdetails"  className="link-style">Mouth Freshner</Link></td>
                     </tr>
                     <tr>
                         <td>Soaps</td>

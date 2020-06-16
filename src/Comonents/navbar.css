@@ -1,9 +1,8 @@
-.nav-bar-wraper{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    border: 1px solid #000000;
-}
 .nav-bar{
     padding: 20px;
+    background-color:lightpink;
+}
+.link-style{
+    padding: 5px;
+    text-decoration: none;
 }

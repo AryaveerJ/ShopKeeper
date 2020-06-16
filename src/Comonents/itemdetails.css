@@ -1,0 +1,27 @@
+.item-details-wraper{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.item-details{
+    padding: 20px;
+}
+
+.item{
+    padding:10px;
+    width: 300px;
+    border:1px solid #000000;
+    border-radius: 5%;
+}
+
+.item-wraper{
+    display: flex;
+    justify-content: center;
+}
+
+.item-wraper img{
+    width:200px;
+    height:200px;
+}
