@@ -11,12 +11,13 @@ class  Categories extends React.Component{
             <div className="list-wraper">
             <div className="list">
                 <table>
+                    <tbody>
                     <tr>
-                        <td><Link to="/itemdetails" className="link-style">Tooth Pastes</Link></td>
+                        <td><Link to={{pathname:"/tooth-pastes",state:{value:"Paste"} }} className="link-style">Tooth Pastes</Link></td>
                         <td width="50px"/>
-                        <td><Link to="/itemdetails"  className="link-style">Tooth Brush</Link></td>
+                        <td><Link to={{pathname:"/tooth-brush",state:{value:"Brush"} }}  className="link-style">Tooth Brush</Link></td>
                         <td width="50px"/>
-                        <td><Link to="/itemdetails"  className="link-style">Mouth Freshner</Link></td>
+                        <td><Link to={{pathname:"/mouth-freshner",state:{value:"Freshner"}}}  className="link-style">Mouth Freshner</Link></td>
                     </tr>
                     <tr>
                         <td>Soaps</td>
@@ -47,6 +48,7 @@ class  Categories extends React.Component{
                         <td width="50px"/>
                         <td>Product 9</td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
             </div>

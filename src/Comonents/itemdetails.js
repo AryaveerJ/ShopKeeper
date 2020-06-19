@@ -37,12 +37,15 @@ class Item extends React.Component{
 
 class ItemDetails extends React.Component{
 
+   
+
     render(){
         return (
             <div>
                 <div>
                     <NavBar/>
                 </div>
+                
                 <div className="item-details-wraper">
                     <div className="item-details">
                         <table>
@@ -59,6 +62,10 @@ class ItemDetails extends React.Component{
                             </tbody>
                         </table>
                     </div>
+                </div>
+                <div>
+                    <h1>{this.props.match.params.category}</h1>
+                    <h1>{this.props.location.state.value}</h1>
                 </div>
             </div>
         );
