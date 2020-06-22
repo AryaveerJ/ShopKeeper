@@ -4,7 +4,7 @@
   margin-right: 30%;
   border-radius: 2%;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #000000;
 }
 
 .valid-profile {
@@ -24,6 +24,13 @@
   margin-right: 50px;
 }
 
+.div-name {
+  display: inline-block;
+  width: 45%;
+}
+.div-name-inner {
+  margin-left: 10%;
+}
 .valid-profile input {
   padding: 10px;
 }
